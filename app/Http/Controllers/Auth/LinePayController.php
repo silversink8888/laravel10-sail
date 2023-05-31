@@ -16,7 +16,13 @@ class LinePayController extends Controller
 
     public function __construct()
     {
+<<<<<<< HEAD
         $this->channel_id = config('app.public_key');
+=======
+       // $this->channel_id = '1657931616';
+        $this->channel_id = config('app.public_key');
+       // $this->channel_secret_key = 'df4edbd305efbf8f09be3e041b5b73af';
+>>>>>>> 663257e53048c0a2bcfa06cb733f4a1b44aebf06
         $this->channel_secret_key = config('app.secret_key');
     }
 
